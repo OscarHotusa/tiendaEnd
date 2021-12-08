@@ -1,0 +1,12 @@
+.Product{
+    a{
+        color:rgb(var(--color))
+    }
+    .image{
+        figure{margin:20px 0;}
+        img{
+            max-width:200px;
+            max-height: 200px;
+        }
+    }
+}

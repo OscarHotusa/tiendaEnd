@@ -1,0 +1,19 @@
+.Login{height:100vh;display:flex;justify-content:center;align-items:center;background:rgba(var(--background),.4);color:rgb(var(--background));padding:30px 20px;overflow:auto;text-align:center;}
+.Login .center{padding:30px 20px;border-radius:20px;background:rgb(var(--color));box-shadow:2px 2px 10px 0 rgb(var(--background));max-width:400px;}
+.Login h1{font-size:20px;font-weight:bold;display:block;margin-bottom:20px;text-transform:uppercase;}
+.Login .errors{color:#c00;border:2px solid #f00;padding:20px;text-align:left;background:rgba(255,0,0,.1);margin-bottom: 30px;font-weight:bold;font-size:12px;}
+.Login .errors li:not(:last-child){margin-bottom:5px;}
+.Login .errors:empty{display:none}
+.Login form{border:1px solid rgb(var(--background));border-radius:10px;padding:20px 10px;}
+.Login .labelText{position:relative;display:block;margin-bottom:10px;}
+.Login .labelText input{display:block;height:55px;border:1px solid rgb(var(--background));box-sizing:border-box;width:100%;text-align:left;font:14px 'Montserrat', sans-serif;color:rgb(var(--background));padding:17px 0 0 10px;background: none;}
+.Login .labelText input.ko{border-color:#c00;color:#c00;}
+.Login .labelText input.ko + span{color:#c00;}
+.Login .labelText span{position:absolute;left:10px;top:50%;line-height:1px;transition:.3s;}
+.Login .labelText input.fill + span,
+.Login .labelText input:focus + span{font-size:11px;top:12px;}
+.Login .dual{display:flex;justify-content:space-between;align-items:center;margin-top:40px;}
+.Login .btnLogin{border:2px solid rgb(var(--background));background:rgb(var(--background));color:rgba(var(--color));height:40px;text-transform:uppercase;letter-spacing:.2em;}
+.Login .btnLogin svg{display:inline-block;vertical-align:middle;margin-right:10px;}
+.Login .btnLogin:hover{background:transparent;color:rgb(var(--background));transition:.3s;}
+.Login .link{text-decoration:underline;}
